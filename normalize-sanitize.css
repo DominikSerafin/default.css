@@ -15,15 +15,20 @@
 
   /* Sanitize.css */
   -ms-overflow-style: -ms-autohiding-scrollbar; /* (Sanitize.css) IE11+ */
-  overflow-y: scroll; /* (Sanitize.css) All browsers without overlaying scrollbars */
+  /* overflow-y: scroll; */ /* (Sanitize.css) All browsers without overlaying scrollbars */
   text-size-adjust: 100%; /* (Sanitize.css) iOS 8+ */
 
   /* Sanitize.css - opinionated */
   box-sizing: border-box;
   cursor: default;
-  font: 16px/1.5 sans-serif;
+  font: 16px/1.5 "Helvetica", "Arial", sans-serif;
   text-rendering: optimizeLegibility;
   background-color: #FFFFFF;
+  
+  /* Opinionated */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: auto;
+  position: relative;
 }
 
 /**
@@ -40,6 +45,9 @@
   padding: 0;
   border-style: solid;
   border-width: 0;
+
+  /* Opinionated */
+  background-repeat: no-repeat;
 }
 
 /**
