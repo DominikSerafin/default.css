@@ -21,7 +21,7 @@
   /* Sanitize.css - opinionated */
   box-sizing: border-box;
   cursor: default;
-  font: 16px/1.5 "Helvetica", "Arial", sans-serif;
+  font: normal normal 400 16px/1.4 "Helvetica", "Arial", sans-serif;
   text-rendering: optimizeLegibility;
   background-color: #FFFFFF;
   
