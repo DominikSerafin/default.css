@@ -205,8 +205,23 @@ dfn {
  */
 
 h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
+  /*font-size: 2em;*/
+  /*margin: 0.67em 0;*/
+}
+
+
+/* Reset parapgraphs and headings - opinionated */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+{
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
 }
 
 /**
@@ -547,6 +562,7 @@ th
 {
   padding: 0;
 }
+
 
 /* Sanitize.css - opinionated: hide content from screens but not screenreaders
    ========================================================================== */
