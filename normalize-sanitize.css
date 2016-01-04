@@ -29,6 +29,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: auto;
   position: relative;
+  word-break: break-word;
 }
 
 /**
