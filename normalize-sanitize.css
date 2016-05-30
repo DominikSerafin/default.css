@@ -14,14 +14,14 @@
   -webkit-text-size-adjust: 100%; /* 2 */
 
   /* Sanitize.css */
-  -ms-overflow-style: -ms-autohiding-scrollbar; /* (Sanitize.css) IE11+ */
+  /* -ms-overflow-style: -ms-autohiding-scrollbar; */ /* (Sanitize.css) IE11+ */
   /* overflow-y: scroll; */ /* (Sanitize.css) All browsers without overlaying scrollbars */
   text-size-adjust: 100%; /* (Sanitize.css) iOS 8+ */
 
   /* Sanitize.css - opinionated */
   box-sizing: border-box;
   cursor: default;
-  font: normal normal 400 16px/1.4 "Helvetica", "Arial", sans-serif;
+  font: normal normal 400 16px/1.4 "Arial", "Helvetica", sans-serif;
   text-rendering: optimizeLegibility;
   background-color: #FFFFFF;
   
