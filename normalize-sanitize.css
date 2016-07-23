@@ -356,6 +356,9 @@ textarea
   color: inherit; /* 1 */
   font: inherit; /* 2 */
   margin: 0; /* 3 */
+  
+  /* Opinionated */
+  border-radius: 0;
 }
 
 /* Sanitize.css - opinionated: specify the background color of form elements */
