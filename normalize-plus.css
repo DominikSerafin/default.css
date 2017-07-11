@@ -28,6 +28,8 @@
   /* Opinionated */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: auto;
+  -ms-overflow-style: scrollbar; 
+  -webkit-overflow-scrolling: touch;
   position: relative;
   word-break: break-word;
 }
