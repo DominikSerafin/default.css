@@ -561,11 +561,12 @@ optgroup {
 }
 
 /* Sanitize.css - opinionated: style select like a standard input */
-
+/*
 select {
   -moz-appearance: none; /* Firefox 36+ */
   -webkit-appearance: none; /* Chrome 41+ */
 }
+*/
 
 select::-ms-expand {
     display: none; /* Internet Explorer 11+ */
@@ -576,7 +577,7 @@ select::-ms-value {
 }
 
 
-
+select,
 textarea,
 input[type="text"],
 input[type="search"],
