@@ -21,17 +21,20 @@
   /* Sanitize.css - opinionated */
   box-sizing: border-box;
   cursor: default;
-  font: normal normal 400 16px/1.4 "Arial", "Helvetica", sans-serif;
-  text-rendering: optimizeLegibility;
+  font: normal normal 400 16px/1.2 "Arial", "Helvetica", sans-serif;
   background-color: #FFFFFF;
   
   /* Opinionated */
+  text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: auto;
   -ms-overflow-style: scrollbar; 
   -webkit-overflow-scrolling: touch;
   position: relative;
-  word-break: break-word;
+  word-break: break-all;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
 }
 
 /**
@@ -46,7 +49,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  border-style: solid;
+  border-style: none;
   border-width: 0;
 
   /* Opinionated */
@@ -372,9 +375,39 @@ input,
 select,
 textarea
 {
+  /*
   background-color: transparent;
   min-height: 1em;
+  */
+  
+  /* Opinionated */
+  min-height: 0;
+  box-shadow: none;
+  background: white;
+  border: 1px solid #777;
 }
+
+
+
+input[type="text"],
+input[type="search"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="number"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"] {
+  
+  /* Opinionated */
+  display: block;
+  width: 100%;
+}
+
 
 /**
  * Address `overflow` set to `hidden` in IE 8/9/10/11.
@@ -382,6 +415,7 @@ textarea
 
 button {
   overflow: visible;
+  
 }
 
 /**
@@ -523,6 +557,9 @@ legend {
 
 textarea {
   overflow: auto; /* (Sanitize.css) Internet Explorer 11+ */
+  
+  /* Opininonated */
+  resize: vertical;
 }
 
 /**
