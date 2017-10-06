@@ -31,7 +31,7 @@
   -ms-overflow-style: scrollbar; 
   -webkit-overflow-scrolling: touch;
   position: relative;
-  word-break: break-all;
+  word-break: normal;
   word-wrap: break-word;
   overflow-wrap: break-word;
   white-space: normal;
