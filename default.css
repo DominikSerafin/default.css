@@ -383,7 +383,7 @@ textarea
   /* Opinionated */
   min-height: 0;
   box-shadow: none;
-  background: white;
+  background-color: #fff;
   border: 1px solid #777;
 }
 
