@@ -315,7 +315,14 @@ figure {
 
 hr {
   box-sizing: content-box;
-  height: 0;
+  
+  /* Opinionated */
+  height: 1px;
+  display: block;
+  width: auto;
+  box-shadow: none;
+  border: none;
+  background: #777;
 }
 
 /**
